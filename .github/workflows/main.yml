@@ -1,3 +1,8 @@
+- name: Set executable permissions for Tauri CLI
+  run: chmod +x ./node_modules/.bin/tauri
+
+- name: Build Tauri app
+  run: npm run tauri build
 name: Build Tauri macOS App
 
 on:
