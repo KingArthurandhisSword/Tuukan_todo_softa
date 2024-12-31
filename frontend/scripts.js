@@ -69,8 +69,9 @@ function saveTasks() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    localStorage.clear(); // Tyhjentää LocalStoragen kokonaan
+    loadTasks(); // Lataa tallennetut tehtävät, kun DOM latautuu
 });
+
 
 // Lataa tallennetut tehtävät
 function loadTasks() {
