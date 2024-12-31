@@ -79,5 +79,3 @@ function loadTasks() {
     tasks.forEach(task => addTaskToList(task.text, task.completed));
 }
 
-// Lataa tehtävät DOM:n latautuessa
-document.addEventListener("DOMContentLoaded", loadTasks);
